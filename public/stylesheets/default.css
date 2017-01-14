@@ -1,0 +1,184 @@
+/*
+ * Navigation Bar
+ */
+.streamer {
+    margin-bottom: -1.5em;
+}
+
+.header {
+    width: 70em;
+    height: 10em;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.header-background img {
+    width: 100%;
+    position: relative;
+}
+
+.title {
+    width: 47em;
+    position: absolute;
+    top: -0.5em;
+    
+    z-index: 1;
+}
+
+.title h1 {
+    display: inline-block;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    
+    color: black;
+    text-shadow: 1px 1px white;
+    text-transform: uppercase;
+    font-family: 'Cacophony';
+    font-size: 5em;
+}
+
+.logo {
+    width: 45%;
+    position: relative;
+    top: -9em;
+    left: 2em;
+}
+
+.navbar {
+    position: relative;
+    top: -3.5em;
+    float: right;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+}
+
+
+/*
+ * Content
+ */
+.background {
+    background-image: url(/pictures/star-background-small.png);
+}
+
+.content {
+    margin: auto;
+    width: 70em
+}
+
+
+/*
+ * Footer
+ */
+.footer {
+    width: 70em;
+    height: 7em;
+    margin: auto;
+}
+
+.footer img {
+    display: inline-block;
+    float: left;
+    height: 5em;
+    margin: 1em;
+}
+
+.contact {
+    float: right;
+    width: 50%;
+    margin: 1em;
+}
+
+.contact p:first-child {
+    position: relative;
+    right: 5.3em;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+}
+
+.contact p {
+    float: right;
+    margin-left: 3em;
+}
+
+
+/*
+ * Utility
+ */
+.border {
+    margin: 0;
+    width: 100%;
+    
+    border-bottom: 0.5em solid #202EC2;
+    box-shadow: 1px 1px #bfbfbf;
+}
+
+.container {
+    background-color: #f2f2f2;
+    box-shadow: 3px 3px #bfbfbf;
+}
+
+.text-box {
+    display: inline-block;
+    
+    text-align: center;
+}
+
+.text-box p {
+    margin: 1em;
+}
+
+.gap {
+    margin: auto;
+    width: inherit;
+    height: 3em;
+}
+
+
+/* 
+ * Styling
+ */
+@font-face {
+    font-family: Cacophony;
+    src: url(/fonts/Cacophony.ttf);
+}
+
+@font-face {
+    font-family: Squares;
+    src: url(/fonts/Squares.otf);
+}
+
+.typical {
+    font-family: Verdana;
+    text-shadow: 1px 1px #e0e0e0;
+}
+
+.heavy {
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+a {
+    text-transform: uppercase;
+    font-family: monospace;
+    
+    text-decoration: none;
+    text-shadow: 1px 1px white;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}

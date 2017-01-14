@@ -1,0 +1,55 @@
+.product-line {
+    margin: auto;
+    margin-top: -3em;
+    height: auto;
+}
+
+.manufacturer {
+    margin-top: 3em;
+    width: auto;
+    height: 17em;
+}
+
+.link-box {
+    position: relative;
+    top: 2.5em;
+    left: 2em;
+    display: block;
+    float: left;
+    width: 23em;
+    height: 15em;
+    
+    border-radius: 1px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 2px 2px #bfbfbf;
+}
+
+.link-box img {
+    display: block;
+    margin: auto;
+    margin-top: 0.5em;
+    height: 10em;
+}
+
+.wide-logo {
+    width: 20em;
+}
+
+.link-box p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 9.5em;
+    
+    text-align: center;
+    font-size: 1.05em;
+}
+
+.desc {
+    position: relative;
+    right: 2em;
+    top: 1em;
+    float: right;
+    width: 65%;
+}
