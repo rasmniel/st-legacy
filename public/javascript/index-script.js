@@ -23,15 +23,15 @@ var main = function () {
         prev.addClass("active");
     });
 	
-	if (window.localStorage['displayedLegacyWarning']) {
+	if (!window.localStorage['displayedLegacyWarning']) {
         window.setTimeout(function() {
             alert('NB!\n\n' +
                 'Dette er ikke det officielle STAR-Trading site, men blot en demo uden aktuel data. Det rigtige site findes på\nwww.star-trading.dk.\n\n' +
                 '================\n\n' +
                 'This is not the official STAR-Trading site, but merely a demo with obsolete data. The real site is available at\nwww.star-trading.dk.');
         }, 1000);
+		window.localStorage['displayedLegacyWarning'] = true;
     }
-    window.localStorage['displayedLegacyWarning'] = true;
 };
 
 $(document).ready(main);
